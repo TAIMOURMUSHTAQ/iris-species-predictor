@@ -1,49 +1,42 @@
 # Iris Flower Classification App
-
 A machine learning web application that predicts iris flower species based on their measurements using a Random Forest classifier.
 
-![Iris App](https://via.placeholder.com/800x400.png?text=Iris+Flower+Classification+App)
-*Note: Add a screenshot of your app here*
-
 ## 🌸 Overview
+•	This project demonstrates an end-to-end machine learning application that:
+•	Classifies iris flowers into three species: Setosa, Versicolor, and Virginica
+•	Uses a Random Forest classifier for predictions
+•	Provides an interactive web interface built with Streamlit
+•	Deploys a fully functional ML model with a clean UI
 
-This project demonstrates an end-to-end machine learning application that:
-- Classifies iris flowers into three species: Setosa, Versicolor, and Virginica
-- Uses a Random Forest classifier for predictions
-- Provides an interactive web interface built with Streamlit
-- Deploys a fully functional ML model with a clean UI
 
 ## 📊 Dataset
-
 The model is trained on the famous Iris dataset, which contains:
-- 150 samples of iris flowers
-- 3 species: Setosa, Versicolor, and Virginica
-- 4 features for each sample:
-  - Sepal length (cm)
-  - Sepal width (cm)
-  - Petal length (cm)
-  - Petal width (cm)
+•	150 samples of iris flowers
+•	3 species: Setosa, Versicolor, and Virginica
+•	4 features for each sample:
+•	Sepal length (cm)
+•	Sepal width (cm)
+•	Petal length (cm)
+•	Petal width (cm)
 
 ## 🚀 Features
+•	**Interactive Input**: Adjustable sliders for flower measurements
+•	**Real-time Predictions**: Instant species classification as you adjust values
+•	**Probability Display**: Shows confidence levels for each prediction
+•	**Model Insights**: Displays feature importance and dataset information
+•	**Responsive Design**: Works on desktop and mobile devices
 
-- **Interactive Input**: Adjustable sliders for flower measurements
-- **Real-time Predictions**: Instant species classification as you adjust values
-- **Probability Display**: Shows confidence levels for each prediction
-- **Model Insights**: Displays feature importance and dataset information
-- **Responsive Design**: Works on desktop and mobile devices
-
-## 🛠️ Installation
 
 ### Prerequisites
-- Python 3.7 or higher
-- pip (Python package manager)
+•	Python 3.7 or higher
+•	pip (Python package manager)
 
 ### Steps
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/iris-prediction-app.git
-cd iris-prediction-app
-python -m venv venv
+git clone https://github.com/taimourmushtaq /iris-species-predictor.git
+cd iris-species-predictor
+ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
@@ -54,8 +47,11 @@ iris-prediction-app/
 ├── README.md             # Project documentation
 └── images/             
 
-# Directory for screenshots (optional) 
-🔧 Technical Details
+# Screenshots
+<img width="992" height="816" alt="image" src="https://github.com/user-attachments/assets/6babf18e-5a7c-4082-a844-78958bfc5b0a" />
+
+ 
+🔧 Techincal Details
 Model Training
 The Random Forest classifier was chosen for its:
 High accuracy on tabular data
@@ -72,6 +68,7 @@ Petal length
 Petal width
 Sepal length
 Sepal width
+
 🌐 Deployment
 The app can be deployed on various platforms:
 Streamlit Sharing
@@ -79,24 +76,11 @@ Push your code to GitHub
 Connect your repository to Streamlit Sharing
 Deploy with one click
 Heroku
-Create a Procfile with: web: streamlit run app.py --server.port=$PORT
-Deploy using Heroku CLI or connected GitHub repo
 Other Platforms
 The app can also be deployed on:
 AWS Elastic Beanstalk
 Google App Engine
 Microsoft Azure
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-Fork the project
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-🙏 Acknowledgments
-The Iris dataset: Originally published by R.A. Fisher in 1936
-Scikit-learn: For providing excellent machine learning tools
-Streamlit: For making web app development accessible
-UC Irvine: For maintaining the UCI Machine Learning Repository
+
+
+
